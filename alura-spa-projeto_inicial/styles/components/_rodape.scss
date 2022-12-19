@@ -1,0 +1,28 @@
+@import "../abstract/variaveis";
+
+#rodape {
+   display:inline;
+   text-align: center;
+    .img_rodape{
+        margin: 50px;
+    }
+    .rodape_texto {
+        font-size: $tamanho-do-texto/2.7;
+        color: $cor-primaria;
+        h3 {
+            text-shadow: 1px 1px 1px;
+            font-size: 30px;
+            margin: 0 0 10px 0;
+            letter-spacing: 20px;
+        }
+        h4 {
+            margin: 2em auto;
+            font-weight: bold;
+        }
+        p {
+            margin: 2em auto;
+            line-height: 2em;
+            font-weight: bold;
+        }
+    }
+}
